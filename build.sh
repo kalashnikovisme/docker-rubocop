@@ -1,1 +1,1 @@
-docker build -t kalashnikovisme/docker-rubocop:$VERSION --build-arg RUBY_VERSION=$VERSION ./ && docker push kalashnikovisme/docker-rubocop:$VERSION
+docker build -t kalashnikovisme/docker-rubocop:ruby-$VERSION --build-arg RUBY_VERSION=$VERSION ./ && docker push kalashnikovisme/docker-rubocop:ruby-$VERSION

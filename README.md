@@ -5,10 +5,6 @@ Ruby code and test it with Rubocop. It was built so that we could build our
 applications and run Rubocop against them in CI without having to install the
 rest of our bundle.
 
-## Ruby versions
-
-You can find the list of supported ruby versions [here](https://hub.docker.com/repository/docker/kalashnikovisme/docker-rubocop/tags?page=1&ordering=last_updated).
-
 ## Usage
 
 Mount your project at `/app` in the image and let Rubocop run wild:
@@ -28,7 +24,7 @@ image will pick it up for the tests.
 
 ## Build and push your own image
 
-You can build and push your own image.
+You can build and push your own image with needed ruby version
 
 Just run:
 
